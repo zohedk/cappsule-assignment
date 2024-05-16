@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+.shadow-bg {
+  -webkit-box-shadow: 0px 0px 70px 3px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 0px 70px 3px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 70px 3px rgba(0, 0, 0, 0.15);
+}
+.green-gradient-bg {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    82deg,
+    rgba(255, 255, 255, 1) 55%,
+    rgba(233, 242, 242, 1) 79%
+  );
+}
+
+.stroke-width {
+  stroke-width: 10px;
+  border-radius: 6px;
+}
+
+.available {
+  color: #555555;
+  border: #c8c8c8 1px solid;
+  border-radius: 6px;
+}
+.availableSelected {
+  font-weight: bold;
+  color: #102e32;
+  border: #102e32 2px solid;
+  -webkit-box-shadow: 0px 0px 5px 7px rgba(221, 247, 242, 1);
+  -moz-box-shadow: 0px 0px 5px 7px rgba(221, 247, 242, 1);
+  box-shadow: 0px 0px 5px 7px rgba(221, 247, 242, 1);
+}
+.notAvailable {
+  color: #555555;
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='6' ry='6' stroke='%23595959FF' stroke-width='2' stroke-dasharray='9%2c8' stroke-dashoffset='3' stroke-linecap='square'/%3e%3c/svg%3e");
+  border-radius: 6px;
+}
+.notAvailableSelected {
+  font-weight: bold;
+  color: #102e32;
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='6' ry='6' stroke='%23102E32FF' stroke-width='4' stroke-dasharray='9%2c8' stroke-dashoffset='3' stroke-linecap='square'/%3e%3c/svg%3e");
+  border-radius: 6px;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
